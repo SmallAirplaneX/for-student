@@ -26,12 +26,15 @@ console.log(data.value.price)
 </div>
 </template>
 
-<style scoped>
-::v-deep(.el-input) {
-  .el-input__wrapper {
-    box-shadow:0 0 0 0 
+<style lang="less" scoped>
+.test{
+  .el-input {
+    ::v-deep(.el-input__wrapper) {
+    box-shadow:0 0 0 0 ;
   }
 }
+}
+
 
 
 </style>
